@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: ; */
+    background-color: #88AB8E;
+
+}
+.player1{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+input{
+    height: 2rem;
+    width: 10rem;
+    background-color: #EEE7DA;
+    border-radius: 5px;
+}
+button{
+    height: 2rem;
+    width: 5rem;
+    background-color: #F2F1EB;
+    border-radius: 5px;
+    
+}
