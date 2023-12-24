@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="search">
+                <input id="input" type="text" placeholder="Enter city name">
+                <button id="search_btn">search</button>
+            </div>
+            <div class="card">
+                <div class="city-name">
+
+                </div>
+                <div id="weather-card">
+                    <div class="gen">
+                        <div class="msg">
+                            <h1 id="heading"></h1>
+                            
+                        </div><br>
+                        <div id="temp">
+                            ...
+                        </div>
+                    </div><br><br>
+                    <div class="gen">
+                        <div class="msg">
+                            Feels-like
+                        </div>
+                        <div id="feels-like">
+                            ...
+                        </div><br>
+                    </div>
+                </div><br>
+                <div class="max-min">
+
+                    <div class="gen">
+                        <div class="msg">
+                            Maximum Temperature
+                        </div><br>
+                        <div id="max-temp">
+                            ...
+                        </div>
+                    </div>
+                    <div class="gen">
+                        <div class="msg">
+                            Minimum Temperature
+                        </div><br>
+                        <div id="min-temp">
+                            ...
+                        </div>
+                    </div>
+                </div>
+                <div class="other">
+                    <div class="gen">
+                        <div class="msg">
+                            Wind-speed
+                        </div><br>
+
+                        <div id="wind-speed">
+                            ...
+                        </div>
+                    </div>
+                    <div class="gen">
+                        <div class="msg">
+                            Humidity
+                        </div><br>
+                        <div id="humidity">
+                            ...
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="script.js"></script>   
+    </body>
+
+</html>
