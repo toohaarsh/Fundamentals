@@ -1,0 +1,50 @@
+.App{
+    height: 100vh;
+
+}
+.top-nav{
+    background-color: #734060;
+    height: 40px;
+}
+.span1{
+    font-family:  onsulSans-750, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 16px;
+}
+.logo{
+    font-family: bitter, Georgia, 'Times New Roman', ;
+}
+.navbar{
+    height: 100px;
+    background-color: #FFEBB2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border: none;
+    opacity: 90%;
+    height: 35px;
+    width: 15rem;
+    text-align: center;
+    border-radius: 4px 4px;
+}
+button{
+    background-color: #C4E4FF;
+    height: 37px;
+    width: 60px;
+    border: none;
+    
+}
+input:hover{
+    border: 2px solid #46263a;
+}
+button:hover{
+    background-color:#a4d9ff ;
+    cursor: pointer;
+}
+
+.recipes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
